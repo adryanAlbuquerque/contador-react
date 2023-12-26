@@ -1,0 +1,32 @@
+:root {
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1{
+  color: #000C75;
+}
+
+
+button {
+  border-radius: 8px;
+  border: 5px solid;
+  border-color: #000C75;
+  padding: 0.6em 1.2em;
+  font-size: 20px;
+  font-weight: 800;
+  background-color: white;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  background-color: #000C75;
+  border-color: #000C75;
+  color: white;
+}
